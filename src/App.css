@@ -1,0 +1,78 @@
+color {
+  color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  color: hsl(186, 14%, 43%);
+  color: hsl(184, 14%, 56%);
+  color: hsl(185, 41%, 84%);
+  color: hsl(189, 41%, 97%);
+  color: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+::root {
+  --padding: clamp(2rem, 5vw, 3rem);
+}
+
+/* reset the default browser margin and padding to 0 */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 41%, 84%);
+}
+
+.app {
+  place-items: center;
+  display: flex;
+  gap: 4rem;
+}
+
+.logo {
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+.container {
+  margin-top: 70px;
+  padding: 23px 20px;
+  padding-left: 15px;
+  border-radius: 1.3rem;
+  background: hsl(0, 0%, 100%);
+  width: 130%;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 20px 20px 50px hsl(188, 29%, 70%);
+}
+
+/* input container */
+
+[type='number'] {
+  width: 100%;
+  font: inherit;
+  text-align: right;
+  border: none;
+  background-color: hsl(180, 15%, 92%);
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+[type='text'] {
+  width: 100px;
+  border: none;
+  color: hsl(186, 14%, 43%);
+  background-color: hsl(180, 15%, 92%);
+  padding: 13.6px;
+  text-align: center;
+  border-radius: 0.3rem;
+}

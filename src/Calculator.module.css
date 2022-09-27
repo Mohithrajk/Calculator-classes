@@ -1,0 +1,66 @@
+/* calculator */
+.calculator {
+  background: hsl(183, 100%, 15%);
+  width: 50%;
+  border-radius: 0.8rem;
+  margin-left: 4%;
+  padding: 27px 7px;
+  box-shadow: 13px 13px 50px hsl(183, 98%, 18%);
+}
+
+.calculatorGroup {
+  display: grid;
+  gap: var(--padding);
+}
+
+.calculatorUnit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 10px 6px;
+  gap: var(--padding);
+  width: 100%;
+}
+
+.calculatorLabel {
+  display: grid;
+  justify-items: start;
+  width: 28%;
+}
+
+.header {
+  color: hsl(189, 41%, 97%);
+  font-size: 1rem;
+}
+
+.unit {
+  padding: 10px;
+  color: hsl(189, 41%, 97%);
+  font-size: 0.8rem;
+}
+
+.value {
+  color: hsl(172, 67%, 45%);
+  font-size: 1.1rem;
+  width: 72%;
+  text-align: right;
+}
+
+.btn {
+  padding: 10px 90px;
+  margin-top: 35%;
+  border-radius: 0.3rem;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: hsl(172, 67%, 45%);
+  opacity: 40%;
+  color: hsl(183, 100%, 15%);
+}
+
+.btn:hover {
+  background-color: hsl(186, 65%, 72%);
+  opacity: 75%;
+}

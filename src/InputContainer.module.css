@@ -1,0 +1,53 @@
+/* input container */
+.form {
+  padding: 18px 5px;
+  display: grid;
+}
+
+.labelGroup {
+  display: grid;
+  text-align: left;
+}
+
+.label {
+  color: hsl(186, 14%, 43%);
+  font-size: 1rem;
+}
+
+.tipSection {
+  color: hsl(186, 14%, 43%);
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 25px;
+}
+
+.tipAmountWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tipAmount {
+  /* grid-column: span 2; */
+  padding: 5px;
+}
+
+.tip {
+  padding: 10px 20px;
+  background-color: hsl(183, 100%, 15%);
+  border: none;
+  border-radius: 0.3rem;
+  color: hsl(189, 41%, 97%);
+  font: inherit;
+  cursor: pointer;
+  width: 100px;
+}
+
+.tip:hover {
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+}
+
+.labelWrapper {
+  color: hsl(186, 14%, 43%);
+  font-size: 1rem;
+}
